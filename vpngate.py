@@ -297,7 +297,7 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "spring.io:443,cdn.ctn32.us.kg:443,saas.sin.fan:443,mokeedev.com:443,sharray.net:443,"
+        "spring.io:443,cdn.ctn32.us.kg:443,mokeedev.com:443,sharray.net:443,"
         "images.chesscomfiles.com:443,saas.sin.fan:443,cdn.204910.best:443,cdn.ctn32.us.kg:443",
     ).split(",")
     if h.strip()
